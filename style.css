@@ -479,6 +479,84 @@ margin-right: 140px;
 
 
 /*Mathias*/
+/*sektion om nye biler*/
+
+.nyoverskrift {
+  padding-top: 50px;
+  margin-left: 3%;
+
+}
+.nyoverskrift h1 {
+  text-align: left;
+  color: #282830;
+  margin-bottom: 0%;
+}
+
+.nyoverskrift hr {
+  align-items: center;
+  border: 1px solid #3294FA;
+  width: 15rem;
+  margin-top: 0%;
+  margin-bottom: 2rem;
+}
+
+.prøvetur {
+  background-color: #2658DE;
+  border-radius: 5px;
+  color: #f4f4f4;
+  height: 40px;
+  border: none;
+  width: 180px;
+}
+
+.finan {
+  background-color: #f10000;
+  border-radius: 5px;
+  color: #f4f4f4;
+  height: 40px;
+  border: none;
+  width: 180px;
+}
+
+.nybil {
+  background-color: #eff0f0;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 30px;
+  }
+
+.nybil img {
+  max-width: 90%;
+  height: auto; 
+}
+.nybil h3 {
+  text-align: left;
+  margin: 0%;
+  margin-left: 5%;
+  color: #282830;
+  font-size: 14px;
+}
+
+.nybil h2 {
+text-align: right;
+color: #282830;
+margin: 0%;
+margin-right: 5%;
+
+}
+
+.nybil div {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.nybil button {
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  
+}
 
   
 /*footer styling*/
