@@ -416,8 +416,10 @@ body {
 
 .stock-card-area {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  padding-left: 6.5rem;
+  padding-right: 6.5rem;
 }
 
 .afdragsordning {
@@ -425,13 +427,15 @@ body {
   width: 80%;
   border-radius: 6px;
   box-shadow: var(--shaddow);
-  margin-bottom: 2rem;
+  padding-bottom: 10rem;
+  padding-top: 3rem;
+  margin: 30px;
 }
-.stock-card h3{
+.afdragsordning h3{
   color: var(--white);
   text-align: center;
 }
-.stock-card ul{
+.afdragsordning ul{
   color: var(--white);
   text-align: center;
   list-style-type: none;
@@ -456,10 +460,11 @@ h4 {
 
 .garanti{
   margin: 0;
+  margin-left: -20px;
+  margin-right: -20px;
   background-image: linear-gradient(rgba(255, 255, 255, 0.250), rgba(255, 255, 255, 0.250)), url("garanti.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  padding: 100px;
 }
 
 .garanti h4{
@@ -473,7 +478,8 @@ h4 {
   text-align: left;
   margin-left: 140px;
   margin-right: 140px;
-  padding-bottom: 60px;
+
+  
 }
 
 
