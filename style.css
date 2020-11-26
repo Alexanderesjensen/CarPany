@@ -171,23 +171,23 @@ body {
   /*Overskrift*/
   
   .overskrift {
-      padding-top: 50px;
-      margin-left: 3%;
+    padding-top: 50px;
+    margin-left: 3%;
 
-  }
-  .overskrift h1 {
-      text-align: center;
-      color: #fafafa;
-      margin-bottom: 0%;
-  }
+}
+.overskrift h1 {
+    text-align: center;
+    color: #fafafa;
+    margin-bottom: 0%;
+}
 
-  .overskrift hr {
-      align-items: center;
-      border: 1px solid #3294FA;
-      width: 15rem;
-      margin-top: 0%;
-      margin-bottom: 2rem;
-  }
+.overskrift hr {
+  align-items: center;
+  border: 1px solid #3294FA;
+  width: 15rem;
+  margin-top: 0%;
+  margin-bottom: 2rem;
+}
 
 
   /*sektion info*/
