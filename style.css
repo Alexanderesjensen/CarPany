@@ -420,6 +420,7 @@ body {
   align-items: center;
   padding-left: 6.5rem;
   padding-right: 6.5rem;
+  padding-bottom: 70px;
 }
 
 .afdragsordning {
@@ -465,6 +466,8 @@ h4 {
   background-image: linear-gradient(rgba(255, 255, 255, 0.250), rgba(255, 255, 255, 0.250)), url("garanti.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
+  padding: 100px;
+  
 }
 
 .garanti h4{
@@ -480,6 +483,15 @@ h4 {
   margin-right: 140px;
 
   
+}
+
+@media (max-width: 640px) {
+  .stock-card-area{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 
