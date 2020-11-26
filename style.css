@@ -503,4 +503,135 @@ h4 {
         
   }
 
+  /* shajah*/
+  
+.cards {
+  display: grid;
+  margin: 0 auto;
+  max-width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(33.33%, 1fr));
+  grid-auto-rows: 3;
+  gap: 0px;
+ 
+}
+
+.cards * {
+  box-sizing: border-box;
+  margin-top: 30px;
+  
+  
+  
+}
+
+.card__image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: grid;
+  border-top: 2px solid #333333;
+  border-right: 2px solid #333333;
+  border-left: 2px solid #333333;
+  
+
+}
+
+.card__content {
+  line-height: 1.5;
+  font-size: 0.9em;
+  padding: 15px;
+  color: #000000;
+  background: #ffffff;
+  border-right: 2px solid #333333;
+  border-left: 2px solid #333333;
+  border-top: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+ 
+}
+
+.card__content > p:first-of-type {
+  margin-top: 0;
+  
+}
+
+.card__content > p:last-of-type {
+  margin-bottom: 0;
+
+}
+
+
+
+.card__info i {
+  font-size: 0.9em;
+  margin-right: 8px;
+}
+
+.card__link {
+  color: #64968c;
+  text-decoration: none;
+}
+
+.card__link:hover {
+  text-decoration: underline;
+}
+
+.knap{
+  background-color: #3494fa;
+  
+}
+
+.udvalg {
+  padding-top: 79%;
+  margin-bottom: 0%;
+ text-align: center;
+ color: #adadad;
+ 
+ 
+}
+
+hr{
+background-color:  #2494fa;
+margin-bottom: 4px;
+width: 17rem;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+  
+}
+
+
+.box{
+  background-image: url(black-knight-carpany.png);
+  width: 100%;
+  color: #f4f4f4;
+  background-size: cover;
+  padding-bottom: 0%;
+  
+}   
+
+
+/* Style the container/contact section */
+.container {
+  border-radius: 10px #000000;
+  padding: 10px;
+ 
+
+
+ 
+ 
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: center;
+  width: 100%;
+  margin-top: 6px;
+  padding: 20px;
+}
   
