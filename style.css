@@ -1,23 +1,407 @@
 body {
     margin: 0;
     padding: 0%;
-    font-family: '', sans-serif;
-    background-color: #fffffe;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1f1f1f;
     text-align: center;
   }
   
   a {
-    color: #fffffb;
+    color: white;
+  }
+  :root{
+    --black: #282830;
+    --red: #F10000;
+    --blue: #3494FA;
+    --grey:#EFF0F0;
+    --white:#fffffB;
+    --shaddow: 0px 0px 11px 0px rgba(0,0,0,0.69);
+}
+
+
+  /*Alexander*/
+  /*knap styling*/
+
+  button {
+      background-color: #2658DE;
+      border-radius: 40px;
+      color: #f4f4f4;
+      height: 40px;
+      border: none;
+  }
+  
+  /* hr streg styling*/
+
+  hr {
+    align-items: center;
+      border: 1px solid #3294FA;
   }
 
-  :root{
-    --black: #1f1f1f;
-    --darkblue:#2658de;
-    --blue: #3494fa;
-    --grey:#adadad;
-    --white:#fafafa;
-    --shaddow: 2px 2px 2px 2px rgba(78, 78, 78, 0.63); 
+  /*Overskrift*/
+  
+  .overskrift {
+      padding-top: 50px;
+      margin-left: 3%;
+
+  }
+  .overskrift h1 {
+      text-align: center;
+      color: #fafafa;
+      margin-bottom: 0%;
+  }
+
+  .overskrift hr {
+      align-items: center;
+      border: 1px solid #3294FA;
+      width: 15rem;
+      margin-top: 0%;
+      margin-bottom: 2rem;
+  }
+
+
+  /*sektion info*/
+
+  .info {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    color: #f4f4f4;
+    margin-bottom: 30px;
+  }
+
+
+
+  /*sektion om brugte biler*/
+
+    .easygray {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+        }
+
+    .easygray img {
+        max-width: 90%;
+        height: auto;        
+    }
+    .easygray h3 {
+        text-align: left;
+        margin: 0%;
+        margin-left: 5%;
+        color: #f4f4f4;
+        font-size: 14px;
+    }
+
+    .easygray h2 {
+      text-align: right;
+      color: #f4f4f4;
+      margin: 0%;
+      margin-right: 5%;
+      
+    }
+
+    .easygray div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .easygray button {
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        
+    }
+
+    /*find os overskrift*/
+.findos {
+  margin-left: 3%;
+  margin-top: 30px;
 }
+.findos h1 {
+   text-align: center;
+   color: #fafafa;
+   margin-bottom: 0%;
+}
+
+.findos hr {
+   align-items: center;
+   border: 1px solid #3294FA;
+   width: 15rem;
+   margin-top: 0%;
+   margin-bottom: 2rem;
+   }
+
+
+
+ /*Book prøvetur styling*/
+ .book {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+       }
+ 
+ input[type=text], select, textarea {
+   width: 90%;
+   padding: 3px;
+   margin: 5px;
+   background-color: #adadad;
+    
+   }
+   
+   input[type=number], select, textarea {
+       width: 90%;
+       padding: 3px;
+       margin: 5px;
+       background-color: #adadad;
+       }
+ 
+   ::placeholder {
+       color: white;
+   }
+   
+   .book label {
+       color: white;
+   }
+/*book knap*/
+
+.book button {
+   width: 100px;
+   margin-top: 20px;
+   }
+
+/*find os kort og tekst*/
+   .find {
+       text-align: center;
+       width: 90%;
+       margin: auto;
+       margin-bottom: 30px;
+   }
+
+   .find img {
+       max-width: 90%;
+       height: auto;        
+   }
+
+   .find h3 {
+       color: #fafafa;
+       text-align: left;
+       margin-left: 5%;
+   }
+
+   .findos {
+       margin-bottom: 20px;
+   }
+    /*Shajah*/
+
+    /*section*/
+
+.section {
+  overflow: hidden;
+  margin: auto;
+  max-width: 1400px;
+}
+
+.section a {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.section a img {
+  width: 100%;
+  display: block;
+}
+
+.section a span {
+  color: #fff;
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  font-size: 2em;
+  text-shadow: 1px 1px 0 #000;
+}
+
+.section-split a span {
+  display: none;
+}
+
+.section-split a:hover span {
+  display: block;
+}
+
+.videor {
+  position: absolute;
+  margin-top: 80px;
+    
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .section-split a {
+    width: 50%;
+  }
+}
+
+
+  /*Nicoline*/
+  
+/* finansiering*/
+.finansiering {
+  padding: 1rem;
+  background-color: var(--white);
+}
+
+.finansiering h1 {
+  color: var(--black);
+  font-size: 2.5rem;
+  text-align: left;
+  margin-top: 8rem;
+  padding-left: 120px;
+}
+
+.finansiering p {
+  color: var(--black);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;
+  margin-top: 3rem;
+  margin-left: 120px;
+  margin-right: 110px;
+
+}
+
+
+/* Stock section */
+
+.stocks-section {
+  background-color: var(--white);
+}
+
+.stocks-section h2{
+  text-align: center;
+  font-size: 1.3em;
+  color: var(--black);
+}
+
+.stock-card-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 6.5rem;
+  padding-right: 6.5rem;
+  padding-bottom: 70px;
+}
+
+.afdragsordning {
+  background-color: var(--grey);
+  width: 80%;
+  border-radius: 6px;
+  box-shadow: var(--shaddow);
+  padding-bottom: 10rem;
+  padding-top: 3rem;
+  margin: 30px;
+}
+.afdragsordning li{
+  color: var(--black);
+  text-align: center;
+  padding: 8px;
+}
+.afdragsordning ul{
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.garanti{
+  margin: 0;
+  margin-left: -20px;
+  margin-right: -20px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.250), rgba(255, 255, 255, 0.250)), url("garanti.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 100px;
+  
+}
+
+.garanti h4{
+  color: var(--black);
+  text-shadow: 2px 2px 4px #ffffff;
+  font-size: 2.5rem;
+  text-align: left;
+  margin-left: 100px;
+}
+.garanti p{
+  color: var(--black);
+  text-shadow: 2px 2px 4px #ffffff;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+@media (max-width: 640px) {
+  .stock-card-area{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .garanti{
+  background-size: 300%;
+  }
+  .garanti h4{
+    margin: 0;
+    text-align: center;
+  }
+  .garanti p{
+    margin: 0;
+    text-align: center;
+  }
+
+  .finansiering h1 {
+    padding: 0;
+  }
+  
+  .finansiering p {
+    margin: 0;
+  
+  }
+}
+
+
+
+    
+  /*footer styling*/
+  
+  footer {
+    color: #fff;
+    padding: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    background-color: var(--blue);
+    box-sizing: border-box ;
+    opacity: 89%;
+    position: relative;
+  
+  }
+  .footer-text {
+    text-align: left;
+  }
+
+  .trust{
+    position: absolute;
+    right: 5%;
+    width: 10%;
+    height: auto;
+  }
 
   
   /* header */
@@ -375,132 +759,7 @@ body {
   }
 }
 
-  /*Nicoline*/
-  
-  
-/* finansiering*/
-.finansiering {
-  padding: 1rem;
-  background-color: var(--white);
-}
-
-.finansiering h1 {
-  color: var(--black);
-  font-size: 2.5rem;
-  text-align: left;
-  margin-top: 8rem;
-  padding-left: 140px;
-}
-
-.finansiering p {
-  color: var(--black);
-  text-align: left;
-  margin-top: 3rem;
-  margin-left: 140px;
-  margin-right: 140px;
-
-}
 
 
-/* Stock section */
 
-.stocks-section {
-  padding: 1rem;
-  background-color: var(--white);
-}
-
-.stocks-section h2{
-  text-align: center;
-  font-size: 1.3em;
-  color: var(--black);
-}
-
-.stock-card-area {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-left: 6.5rem;
-  padding-right: 6.5rem;
-}
-
-.afdragsordning {
-  background-color: var(--grey);
-  width: 80%;
-  border-radius: 6px;
-  box-shadow: var(--shaddow);
-  padding-bottom: 10rem;
-  padding-top: 3rem;
-  margin: 30px;
-}
-.afdragsordning h3{
-  color: var(--white);
-  text-align: center;
-}
-.afdragsordning ul{
-  color: var(--white);
-  text-align: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 30px;
-  font-size: 1.2rem;
-}
-
-h4 {
-  color: var(--white);
-  font-size: 1.8rem;
-  text-align: center;
-  padding-top: 180px;
-}
-
-.garanti{
-  margin: 0;
-  margin-left: -20px;
-  margin-right: -20px;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.250), rgba(255, 255, 255, 0.250)), url("garanti.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.garanti h4{
-  color: var(--black);
-  font-size: 2.5rem;
-  text-align: left;
-  margin-left: 140px;
-}
-.garanti p{
-  color: var(--black);
-  text-align: left;
-  margin-left: 140px;
-  margin-right: 140px;
-
-  
-}
-
-
-=======
 /*Mathias*/
-
-    
-  /*footer styling*/
-  
-  footer {
-    color: #fff;
-    padding: 20px;
-    margin-left: -20px;
-    margin-right: -20px;
-    background-color: #adadad;
-    box-sizing: border-box ;
-    opacity: 88%;
-    position: relative;
-    
-    
-  
-   
-  }
-  .footer-text {
-    text-align: left 20px;
-        
-  }
-
-  
