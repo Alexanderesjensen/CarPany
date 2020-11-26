@@ -10,11 +10,11 @@ body {
     color: white;
   }
   :root{
-    --black: #1f1f1f;
-    --darkblue:#2658de;
-    --blue: #3494fa;
-    --grey:#adadad;
-    --white:#fafafa;
+    --black: #282830;
+    --red: #F10000;
+    --blue: #3494FA;
+    --grey:#EFF0F0;
+    --white:#fffffB;
     --shaddow: 2px 2px 2px 2px rgba(78, 78, 78, 0.63); 
 }
 
