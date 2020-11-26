@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0%;
-    font-family: '', sans-serif;
+    font-family: 'montserrat', sans-serif;
     background-color: #fffffe;
     text-align: center;
   }
@@ -154,175 +154,214 @@ body {
   /*Alexander*/
   /*knap styling*/
 
-  button {
-      background-color: #2658DE;
-      border-radius: 40px;
-      color: #f4f4f4;
-      height: 40px;
-      border: none;
-  }
-  
-  /* hr streg styling*/
-
-  hr {
-    align-items: center;
-      border: 1px solid #3294FA;
-  }
-
-  /*Overskrift*/
-  
-  .overskrift {
-      padding-top: 50px;
-      margin-left: 3%;
-
-  }
-  .overskrift h1 {
-      text-align: center;
-      color: #fafafa;
-      margin-bottom: 0%;
-  }
-
-  .overskrift hr {
-      align-items: center;
-      border: 1px solid #3294FA;
-      width: 15rem;
-      margin-top: 0%;
-      margin-bottom: 2rem;
-  }
-
-
-  /*sektion info*/
-
-  .info {
-    text-align: center;
-    width: 90%;
-    margin: auto;
+  .btnbook {
+    background-color: #f10000;
+    border-radius: 40px;
     color: #f4f4f4;
-    margin-bottom: 30px;
-  }
+    height: 40px;
+    border: none;
+}
+
+.finans {
+  background-color: #3494fa;
+  border-radius: 40px;
+  color: #f4f4f4;
+  height: 40px;
+  border: none;
+}
 
 
 
-  /*sektion om brugte biler*/
+/* hr streg styling*/
 
-    .easygray {
-        text-align: center;
-        width: 90%;
-        margin: auto;
-        margin-bottom: 30px;
-        }
+hr {
+  align-items: center;
+    border: 1px solid #3294FA;
+}
 
-    .easygray img {
-        max-width: 90%;
-        height: auto;        
-    }
-    .easygray h3 {
-        text-align: left;
-        margin: 0%;
-        margin-left: 5%;
-        color: #f4f4f4;
-        font-size: 14px;
-    }
+/*Overskrift*/
 
-    .easygray h2 {
-      text-align: right;
-      color: #f4f4f4;
-      margin: 0%;
-      margin-right: 5%;
-      
-    }
+.overskrift {
+    padding-top: 50px;
+    margin-left: 0%;
 
-    .easygray div {
+}
+.overskrift h1 {
+    text-align: left;
+    color: #282830;
+    margin-bottom: 0%;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+.overskrift hr {
+    align-items: center;
+    border: 1px solid #3294FA;
+    width: 15rem;
+    margin-top: 0%;
+    margin-bottom: 2rem;
+}
+
+
+/*sektion info*/
+
+.info {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  color: #282830;
+  margin-bottom: 30px;
+}
+
+
+
+/*sektion om brugte biler*/
+
+  .easygray {
+      background-color: #eff0f0;
+      text-align: center;
+      width: 90%;
+      margin: auto;
+      margin-bottom: 30px;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
-    }
-    .easygray button {
-        margin-top: 20px;
-        margin-right: 10px;
-        margin-left: 10px;
-        
-    }
+  
+      }
 
-    /*find os overskrift*/
+  .easygray img {        
+    max-width: 30%;
+    margin-left: 5%;
+    left: 0%;
+      height: auto;        
+  }
+
+  .easygray h3 {
+    position: absolute;
+    right: 100px;   
+    color: #282830;
+    font-size: 14px;
+    text-align: right;
+    margin-top: 3%
+  }
+  
+
+  .easygray h2 {
+    position: absolute;
+    right: 100px;
+    margin-top: 10%;
+    text-align: right;
+    color: #282830;
+    
+    
+  }
+
+  .easygray div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .btnbook{
+      position: absolute;
+      right: 100px;
+      margin-top: 15%;
+      
+  }
+  .finans{
+    position: absolute;
+    right: 100px;
+    margin-top: 15%;
+    margin-right: 10%;
+    
+}
+  /*find os overskrift*/
 .findos {
-  margin-left: 3%;
-  margin-top: 30px;
+margin-left: 3%;
+margin-top: 30px;
 }
 .findos h1 {
-   text-align: center;
-   color: #fafafa;
-   margin-bottom: 0%;
+ text-align: center;
+ color: #282830;
+ margin-bottom: 0%;
 }
 
 .findos hr {
+ align-items: center;
+ border: 1px solid #3294FA;
+ width: 15rem;
+ margin-top: 0%;
+ margin-bottom: 2rem;
+ }
+
+
+
+/*Book prøvetur styling*/
+
+.booktid {
+background-color: #f10000;
+width: auto;  
+border-radius: 5px;
+  color: #f4f4f4;
+  height: 40px;
+  border: none;
+  
+}
+.book {
+   display: flex;
+   flex-direction: column;
    align-items: center;
-   border: 1px solid #3294FA;
-   width: 15rem;
-   margin-top: 0%;
-   margin-bottom: 2rem;
-   }
+     }
 
-
-
- /*Book prøvetur styling*/
- .book {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-       }
+input[type=text], select, textarea {
+ width: 90%;
+ padding: 3px;
+ margin: 5px;
+ background-color: #fffffb;
+  
+ }
  
- input[type=text], select, textarea {
-   width: 90%;
-   padding: 3px;
-   margin: 5px;
-   background-color: #adadad;
-    
-   }
-   
-   input[type=number], select, textarea {
-       width: 90%;
-       padding: 3px;
-       margin: 5px;
-       background-color: #adadad;
-       }
+ input[type=number], select, textarea {
+     width: 90%;
+     padding: 3px;
+     margin: 5px;
+     background-color: #fffffb;
+     }
+
+ ::placeholder {
+     color: #282830;
+ }
  
-   ::placeholder {
-       color: white;
-   }
-   
-   .book label {
-       color: white;
-   }
+ .book label {
+     color: #282830;
+ }
 /*book knap*/
 
 .book button {
-   width: 100px;
-   margin-top: 20px;
-   }
+ width: 100px;
+ margin-top: 20px;
+ }
 
 /*find os kort og tekst*/
-   .find {
-       text-align: center;
-       width: 90%;
-       margin: auto;
-       margin-bottom: 30px;
-   }
+ .find {
+     text-align: center;
+     width: 90%;
+     margin: auto;
+     margin-bottom: 30px;
+ }
 
-   .find img {
-       max-width: 90%;
-       height: auto;        
-   }
+ .find img {
+     max-width: 90%;
+     height: auto;        
+ }
 
-   .find h3 {
-       color: #fafafa;
-       text-align: left;
-       margin-left: 5%;
-   }
+ .find h3 {
+     color: #fafafa;
+     text-align: left;
+     margin-left: 5%;
+ }
 
-   .findos {
-       margin-bottom: 20px;
-   }
+ .findos {
+     margin-bottom: 20px;
+ }
     /*Shajah*/
 
     /*section*/
@@ -478,7 +517,6 @@ h4 {
 }
 
 
-=======
 /*Mathias*/
 
     
