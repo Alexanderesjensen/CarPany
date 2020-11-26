@@ -414,8 +414,7 @@ input[type=text], select, textarea {
   }
 }
 
-  /*Nicoline*/
-  
+/*Nicoline*/
   
 /* finansiering*/
 .finansiering {
@@ -428,15 +427,17 @@ input[type=text], select, textarea {
   font-size: 2.5rem;
   text-align: left;
   margin-top: 8rem;
-  padding-left: 140px;
+  padding-left: 120px;
 }
 
 .finansiering p {
   color: var(--black);
+  font-size: 1.1rem;
+  line-height: 1.6;
   text-align: left;
   margin-top: 3rem;
-  margin-left: 140px;
-  margin-right: 140px;
+  margin-left: 120px;
+  margin-right: 110px;
 
 }
 
@@ -444,7 +445,6 @@ input[type=text], select, textarea {
 /* Stock section */
 
 .stocks-section {
-  padding: 1rem;
   background-color: var(--white);
 }
 
@@ -460,6 +460,7 @@ input[type=text], select, textarea {
   align-items: center;
   padding-left: 6.5rem;
   padding-right: 6.5rem;
+  padding-bottom: 70px;
 }
 
 .afdragsordning {
@@ -471,25 +472,19 @@ input[type=text], select, textarea {
   padding-top: 3rem;
   margin: 30px;
 }
-.afdragsordning h3{
-  color: var(--white);
+.afdragsordning li{
+  color: var(--black);
   text-align: center;
+  padding: 8px;
 }
 .afdragsordning ul{
-  color: var(--white);
   text-align: center;
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  padding-bottom: 30px;
+  padding:0;
+  padding-top: 40px;
+  padding-bottom: 10px;
   font-size: 1.2rem;
-}
-
-h4 {
-  color: var(--white);
-  font-size: 1.8rem;
-  text-align: center;
-  padding-top: 180px;
 }
 
 .garanti{
@@ -499,27 +494,58 @@ h4 {
   background-image: linear-gradient(rgba(255, 255, 255, 0.250), rgba(255, 255, 255, 0.250)), url("garanti.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
+  padding: 100px;
+  
 }
 
 .garanti h4{
   color: var(--black);
+  text-shadow: 2px 2px 4px #ffffff;
   font-size: 2.5rem;
   text-align: left;
-  margin-left: 140px;
+  margin-left: 100px;
 }
 .garanti p{
   color: var(--black);
+  text-shadow: 2px 2px 4px #ffffff;
+  font-size: 1.1rem;
+  line-height: 1.6;
   text-align: left;
-  margin-left: 140px;
-  margin-right: 140px;
-
-  
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 
-/*Mathias*/
+@media (max-width: 640px) {
+  .stock-card-area{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .garanti{
+  background-size: 300%;
+  }
+  .garanti h4{
+    margin: 0;
+    text-align: center;
+  }
+  .garanti p{
+    margin: 0;
+    text-align: center;
+  }
 
-    
+  .finansiering h1 {
+    padding: 0;
+  }
+  
+  .finansiering p {
+    margin: 0;
+  
+  }
+}
+   
   /*footer styling*/
   
   footer {
@@ -527,19 +553,23 @@ h4 {
     padding: 20px;
     margin-left: -20px;
     margin-right: -20px;
-    background-color: #adadad;
+    background-color: var(--blue);
     box-sizing: border-box ;
-    opacity: 88%;
+    opacity: 89%;
     position: relative;
-    
-    
   
-   
   }
   .footer-text {
-    text-align: left 20px;
-        
+    text-align: left;
   }
+
+  .trust{
+    position: absolute;
+    right: 5%;
+    width: 10%;
+    height: auto;
+  }
+
 
   /* shajah*/
   
