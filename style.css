@@ -1,14 +1,15 @@
 body {
     margin: 0;
     padding: 0%;
-    font-family: 'monts', sans-serif;
-    background-color: #1f1f1f;
+    font-family: '', sans-serif;
+    background-color: #fffffe;
     text-align: center;
   }
   
   a {
-    color: white;
+    color: #fffffb;
   }
+
   :root{
     --black: #1f1f1f;
     --darkblue:#2658de;
@@ -22,7 +23,7 @@ body {
   /* header */
   
   .header {
-    background-color: #1f1f1f;
+    background-color: #3494fa;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
@@ -34,19 +35,19 @@ body {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #1f1f1f;
+    background-color: #3494fa;
   }
   
   .header li a {
     display: block;
     padding: 20px 20px;
-    border-right: 1px solid #f4f4f4;
+    border-right: 1px solid #3494fa;
     text-decoration: none;
   }
   
   .header li a:hover,
   .header .menu-btn:hover {
-    background-color: #adadad;
+    background-color: #f10000;
   }
   
   .header .logo {
@@ -444,12 +445,6 @@ body {
   padding-bottom: 30px;
   font-size: 1.2rem;
 }
-body {
-  margin: 0;
- font-family: 'Hind', sans-serif;
-  background-color: var(--white);
-}
-
 
 h4 {
   color: var(--white);
@@ -483,6 +478,8 @@ h4 {
 }
 
 
+=======
+/*Mathias*/
 
     
   /*footer styling*/
