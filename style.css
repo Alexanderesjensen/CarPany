@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0%;
-    font-family: '', sans-serif;
+    font-family: 'montserrat', sans-serif;
     background-color: #fffffe;
     text-align: center;
   }
@@ -169,6 +169,8 @@ body {
     border: none;
 }
 
+  
+
   /* hr streg styling*/
 
   hr {
@@ -292,6 +294,16 @@ body {
 
 
  /*Book prøvetur styling*/
+
+ .booktid {
+  background-color: #f10000;
+  width: auto;  
+  border-radius: 5px;
+    color: #f4f4f4;
+    height: 40px;
+    border: none;
+    
+}
  .book {
      display: flex;
      flex-direction: column;
@@ -302,7 +314,7 @@ body {
    width: 90%;
    padding: 3px;
    margin: 5px;
-   background-color: #adadad;
+   background-color: #fffffb;
     
    }
    
@@ -310,15 +322,15 @@ body {
        width: 90%;
        padding: 3px;
        margin: 5px;
-       background-color: #adadad;
+       background-color: #fffffb;
        }
  
    ::placeholder {
-       color: white;
+       color: #282830;
    }
    
    .book label {
-       color: white;
+       color: #282830;
    }
 /*book knap*/
 
