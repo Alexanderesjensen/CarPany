@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0%;
-    font-family: 'monts', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #1f1f1f;
     text-align: center;
   }
@@ -374,8 +374,8 @@ body {
   }
 }
 
+
   /*Nicoline*/
-  
   
 /* finansiering*/
 .finansiering {
@@ -388,15 +388,17 @@ body {
   font-size: 2.5rem;
   text-align: left;
   margin-top: 8rem;
-  padding-left: 140px;
+  padding-left: 100px;
 }
 
 .finansiering p {
   color: var(--black);
+  font-size: 1.1rem;
+  line-height: 1.6;
   text-align: left;
   margin-top: 3rem;
-  margin-left: 140px;
-  margin-right: 140px;
+  margin-left: 100px;
+  margin-right: 100px;
 
 }
 
@@ -404,7 +406,6 @@ body {
 /* Stock section */
 
 .stocks-section {
-  padding: 1rem;
   background-color: var(--white);
 }
 
@@ -432,31 +433,19 @@ body {
   padding-top: 3rem;
   margin: 30px;
 }
-.afdragsordning h3{
-  color: var(--white);
+.afdragsordning li{
+  color: var(--black);
   text-align: center;
+  padding: 8px;
 }
 .afdragsordning ul{
-  color: var(--white);
   text-align: center;
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  padding-bottom: 30px;
+  padding:0;
+  padding-top: 40px;
+  padding-bottom: 10px;
   font-size: 1.2rem;
-}
-body {
-  margin: 0;
- font-family: 'Hind', sans-serif;
-  background-color: var(--white);
-}
-
-
-h4 {
-  color: var(--white);
-  font-size: 1.8rem;
-  text-align: center;
-  padding-top: 180px;
 }
 
 .garanti{
@@ -472,17 +461,19 @@ h4 {
 
 .garanti h4{
   color: var(--black);
+  text-shadow: 2px 2px 4px #ffffff;
   font-size: 2.5rem;
   text-align: left;
-  margin-left: 140px;
+  margin-left: 100px;
 }
 .garanti p{
   color: var(--black);
+  text-shadow: 2px 2px 4px #ffffff;
+  font-size: 1.1rem;
+  line-height: 1.6;
   text-align: left;
-  margin-left: 140px;
-  margin-right: 140px;
-
-  
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 @media (max-width: 640px) {
@@ -491,6 +482,27 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0;
+  }
+  .garanti{
+  background-size: 300%;
+  }
+  .garanti h4{
+    margin: 0;
+    text-align: center;
+  }
+  .garanti p{
+    margin: 0;
+    text-align: center;
+  }
+
+  .finansiering h1 {
+    padding: 0;
+  }
+  
+  .finansiering p {
+    margin: 0;
+  
   }
 }
 
@@ -517,27 +529,6 @@ h4 {
     text-align: left 20px;
         
   }
-
-body {
-    margin: 0;
-    padding: 0%;
-    font-family: '', sans-serif;
-    background-color: #fffffe;
-    text-align: center;
-  }
-  
-  a {
-    color: #fffffb;
-  }
-
-  :root{
-    --black: #1f1f1f;
-    --darkblue:#2658de;
-    --blue: #3494fa;
-    --grey:#adadad;
-    --white:#fafafa;
-    --shaddow: 2px 2px 2px 2px rgba(78, 78, 78, 0.63); 
-}
 
   
   /* header */
@@ -895,107 +886,6 @@ body {
   }
 }
 
-  /*Nicoline*/
-  
-  
-/* finansiering*/
-.finansiering {
-  padding: 1rem;
-  background-color: var(--white);
-}
-
-.finansiering h1 {
-  color: var(--black);
-  font-size: 2.5rem;
-  text-align: left;
-  margin-top: 8rem;
-  padding-left: 140px;
-}
-
-.finansiering p {
-  color: var(--black);
-  text-align: left;
-  margin-top: 3rem;
-  margin-left: 140px;
-  margin-right: 140px;
-
-}
-
-
-/* Stock section */
-
-.stocks-section {
-  padding: 1rem;
-  background-color: var(--white);
-}
-
-.stocks-section h2{
-  text-align: center;
-  font-size: 1.3em;
-  color: var(--black);
-}
-
-.stock-card-area {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-left: 6.5rem;
-  padding-right: 6.5rem;
-}
-
-.afdragsordning {
-  background-color: var(--grey);
-  width: 80%;
-  border-radius: 6px;
-  box-shadow: var(--shaddow);
-  padding-bottom: 10rem;
-  padding-top: 3rem;
-  margin: 30px;
-}
-.afdragsordning h3{
-  color: var(--white);
-  text-align: center;
-}
-.afdragsordning ul{
-  color: var(--white);
-  text-align: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 30px;
-  font-size: 1.2rem;
-}
-
-h4 {
-  color: var(--white);
-  font-size: 1.8rem;
-  text-align: center;
-  padding-top: 180px;
-}
-
-.garanti{
-  margin: 0;
-  margin-left: -20px;
-  margin-right: -20px;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.250), rgba(255, 255, 255, 0.250)), url("garanti.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.garanti h4{
-  color: var(--black);
-  font-size: 2.5rem;
-  text-align: left;
-  margin-left: 140px;
-}
-.garanti p{
-  color: var(--black);
-  text-align: left;
-  margin-left: 140px;
-  margin-right: 140px;
-
-  
-}
 
 
 
