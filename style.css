@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0%;
-    font-family: 'Hind', sans-serif;
+    font-family: 'monts', sans-serif;
     background-color: #1f1f1f;
     text-align: center;
   }
@@ -377,23 +377,27 @@ body {
   /*Nicoline*/
   
   
-/* cta-section*/
-.cta-section {
+/* finansiering*/
+.finansiering {
   padding: 1rem;
-  background-color: var(--black);
+  background-color: var(--white);
 }
 
-.cta-section h1 {
-  color: var(--white);
-  text-align: center;
-  margin-top: 5.8rem;
+.finansiering h1 {
+  color: var(--black);
+  font-size: 2.5rem;
+  text-align: left;
+  margin-top: 8rem;
+  padding-left: 140px;
 }
 
-.cta-section p {
-  color: var(--white);
-  margin-top: 40px;
-  margin-left: 34px;
-  margin-right: 34px;
+.finansiering p {
+  color: var(--black);
+  text-align: left;
+  margin-top: 3rem;
+  margin-left: 140px;
+  margin-right: 140px;
+
 }
 
 
@@ -401,7 +405,7 @@ body {
 
 .stocks-section {
   padding: 1rem;
-  background-color: var(--black);
+  background-color: var(--white);
 }
 
 .stocks-section h2{
@@ -416,7 +420,7 @@ body {
   align-items: center;
 }
 
-.stock-card {
+.afdragsordning {
   background-color: var(--grey);
   width: 80%;
   border-radius: 6px;
@@ -439,7 +443,7 @@ body {
 body {
   margin: 0;
  font-family: 'Hind', sans-serif;
-  background-color: #1f1f1f;
+  background-color: var(--white);
 }
 
 
@@ -451,23 +455,27 @@ h4 {
 }
 
 .garanti{
-  color: var(--white);
-  padding-left: 32px;
-  padding-right: 32px;
+  margin: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.250), rgba(255, 255, 255, 0.250)), url("garanti.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+
+.garanti h4{
+  color: var(--black);
+  font-size: 2.5rem;
+  text-align: left;
+  margin-left: 140px;
+}
+.garanti p{
+  color: var(--black);
+  text-align: left;
+  margin-left: 140px;
+  margin-right: 140px;
   padding-bottom: 60px;
 }
 
-hr.line{
-  border: 1px solid var(--blue);
-  align-items: center;
-  justify-content: center;
-}
-
-hr.line1{
-  border: 1px solid var(--blue);
-  margin-top: 100px;
-  margin-bottom: -200px;
-}
 
 
     
