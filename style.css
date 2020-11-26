@@ -499,6 +499,7 @@ hr.line1{
    font-family: 'Hind', sans-serif;
     
   }
+  
   a {
     color: #fafafa;
   }
@@ -786,6 +787,7 @@ hr.line1{
   }   
   
   
+  /* Style the container/contact section */
   .container {
     border-radius: 10px #000000;
     padding: 10px;
