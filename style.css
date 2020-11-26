@@ -153,14 +153,22 @@ body {
   /*Alexander*/
   /*knap styling*/
 
-  button {
-      background-color: #2658DE;
+  .btnbook {
+      background-color: #f10000;
       border-radius: 40px;
       color: #f4f4f4;
       height: 40px;
       border: none;
   }
   
+  .finans {
+    background-color: #3494fa;
+    border-radius: 40px;
+    color: #f4f4f4;
+    height: 40px;
+    border: none;
+}
+
   /* hr streg styling*/
 
   hr {
@@ -172,13 +180,15 @@ body {
   
   .overskrift {
       padding-top: 50px;
-      margin-left: 3%;
+      margin-left: 0%;
 
   }
   .overskrift h1 {
-      text-align: center;
-      color: #fafafa;
+      text-align: left;
+      color: #282830;
       margin-bottom: 0%;
+      margin-left: 75px;
+      margin-top: 50px;
   }
 
   .overskrift hr {
@@ -196,7 +206,7 @@ body {
     text-align: center;
     width: 90%;
     margin: auto;
-    color: #f4f4f4;
+    color: #282830;
     margin-bottom: 30px;
   }
 
@@ -205,29 +215,40 @@ body {
   /*sektion om brugte biler*/
 
     .easygray {
+        background-color: #eff0f0;
         text-align: center;
         width: 90%;
         margin: auto;
         margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+    
         }
 
-    .easygray img {
-        max-width: 90%;
+    .easygray img {        
+      max-width: 30%;
+      margin-left: 5%;
+      left: 0%;
         height: auto;        
     }
+
     .easygray h3 {
-        text-align: left;
-        margin: 0%;
-        margin-left: 5%;
-        color: #f4f4f4;
-        font-size: 14px;
+      position: absolute;
+      right: 100px;   
+      color: #282830;
+      font-size: 14px;
+      text-align: right;
+      margin-top: 3%
     }
+    
 
     .easygray h2 {
+      position: absolute;
+      right: 100px;
+      margin-top: 10%;
       text-align: right;
-      color: #f4f4f4;
-      margin: 0%;
-      margin-right: 5%;
+      color: #282830;
+      
       
     }
 
@@ -236,13 +257,19 @@ body {
       flex-direction: row;
       justify-content: space-between;
     }
-    .easygray button {
-        margin-top: 20px;
-        margin-right: 10px;
-        margin-left: 10px;
+    .btnbook{
+        position: absolute;
+        right: 100px;
+        margin-top: 15%;
         
     }
-
+    .finans{
+      position: absolute;
+      right: 100px;
+      margin-top: 15%;
+      margin-right: 10%;
+      
+  }
     /*find os overskrift*/
 .findos {
   margin-left: 3%;
@@ -250,7 +277,7 @@ body {
 }
 .findos h1 {
    text-align: center;
-   color: #fafafa;
+   color: #282830;
    margin-bottom: 0%;
 }
 
